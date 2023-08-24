@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(41, 169, 224);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    background-color: #495cd6;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.product img {
+    width: 100%;
+}
